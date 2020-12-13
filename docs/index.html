@@ -39,9 +39,6 @@
 
             --code-inline-color: var(--custome-black);
         }
-        .toc-nav{
-            background-color: #000;
-        }
     </style>
 </head>
 <body>
@@ -55,7 +52,7 @@
     loadNavbar: true,
     loadSidebar: true,
     alias: {
-      // '/.*/_sidebar.md': '/_sidebar.md',
+      '/.*/_sidebar.md': '/_sidebar.md',
       '/.*/_navbar.md': '/_navbar.md'
     },
     subMaxLevel: 3,
@@ -77,6 +74,9 @@
     },
   }
 </script>
+
+<!-- 多tab支持 -->
+<script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1/dist/docsify-tabs.min.js"></script>
 <!-- Docsify v4 -->
 <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>

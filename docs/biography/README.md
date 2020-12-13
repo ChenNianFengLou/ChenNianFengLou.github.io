@@ -1,4 +1,4 @@
-### Hi there 👋 I'm Fatezhang, a developer from Xi'an, China.
+### Hi there 👋 I'm Fatezhang, a developer from Xi'an, China. {docsify-ignore-all}
 
 - 😄 Pronouns: He/him
 - 🐳 Motto: When the world turns its back on you, you turn your back on the world! And only embrace what's next!
