@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>陈年风楼的博客</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="description" content="Description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css"/>
+    <style>
+        :root {
+            --custome-black: #000;
+            --custome-yellow: #f90;
+            --custome-white: #fff;
+            /* Base */
+            --base-color: var(--custome-white);
+            --base-background-color: var(--custome-black);
+            --base-font-weight: bold;
+
+            --mono-base: var(--custome-black);
+            --mono-shade2: var(--custome-black);
+            --mono-tint2: var(--custome-yellow);
+            --mono-tint1: var(--custome-yellow);
+
+            --sidebar-background: var(--custome-black);
+            --sidebar-toggle-background: var(--custome-black);
+            --selection-color: var(--custome-white);
+            --copycode-background: var(--custome-yellow);
+            --copycode-color: var(--custome-black);
+
+            /* Strong */
+            --strong-font-weight: 600;
+            /* Blockquote */
+            --blockquote-font-weight: bold;
+            --blockquote-font-family: "Asap Condensed";
+            --cover-button-primary-color: var(--custome-black);
+            --cover-button-color: var(--custome-yellow);
+
+            --code-inline-color: var(--custome-black);
+        }
+        .toc-nav{
+            background-color: #000;
+        }
+    </style>
+</head>
+<body>
+<div id="app"></div>
+<script>
+  window.$docsify = {
+    name: '<img src="logos/cnfl40px.png"/>',
+    repo: 'Fatezhang',
+    coverpage: true,
+    onlyCover: false,
+    loadNavbar: true,
+    loadSidebar: true,
+    alias: {
+      '/.*/_sidebar.md': '/_sidebar.md',
+      '/.*/_navbar.md': '/_navbar.md'
+    },
+    subMaxLevel: 2,
+    mergeNavbar: true,
+    notFoundPage: 'it404.md',
+    themeColor: 'var(--custome-yellow)',
+    auto2top: true,
+
+    // PLUGINS
+    // ----------------------------------------------------------------
+
+    // 全文搜索
+    search: {
+      depth: 5,
+      noData: "No Data!",
+      placeholder: "Search...",
+      // 避免搜索索引冲突,同一域下的多个网站之间
+      namespace: "website-1",
+    },
+  }
+</script>
+<!-- Docsify v4 -->
+<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+<script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+<!-- 全文搜索 -->
+<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+<!-- 侧边栏目录折叠 -->
+<script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+<!-- 语法高亮 -->
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-shell.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-javascript.min.js"></script>
+</body>
+</html>
