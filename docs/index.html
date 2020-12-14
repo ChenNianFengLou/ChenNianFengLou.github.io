@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <link rel="icon" href="favicon.ico"/>
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css"/>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
     <style>
         :root {
             --custome-black: #000;
@@ -94,5 +95,25 @@
 <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-javascript.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+<script>
+  const gitalk = new Gitalk({
+    clientID: '64ce1c8e4c4e0ddae12a',
+    clientSecret: 'ffd640a733fc8e83d51be2ae5c521ca586351d6f',
+    repo: 'ChenNianFengLou.github.io',
+    owner: 'ChenNianFengLou',
+    admin: ['Fatezhang', 'ChenNianFengLou'],
+    // facebook-like distraction free mode
+    distractionFreeMode: false,
+    createIssueManually: true,
+    flipMoveOptions: {
+      staggerDelayBy: 150,
+      appearAnimation: 'accordionVertical',
+      enterAnimation: 'accordionVertical',
+      leaveAnimation: 'accordionVertical',
+    },
+  })
+</script>
 </body>
 </html>
