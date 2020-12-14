@@ -1,10 +1,10 @@
 <a target="_blank" href="https://zhangjiaheng.cn">
-  <img width="380px" style="border-radius: 50%" bor alt="" src="https://cdn.jsdelivr.net/gh/Fatezhang/FigureCloud@master/uPic/gg7I2o.png"/>
+  <img width="318px" style="border-radius: 50%" alt="" src="https://cdn.jsdelivr.net/gh/Fatezhang/FigureCloud@master/uPic/h28s2N.jpg"/>
 </a>
 
-__真正的大师，永远都怀着一颗学徒的心！__
+> `A true master is an eternal student!`
 
 [GitHub](https://github.com/Fatezhang/)
 [View my biography](/biography/)
 
-![pKtFXF](https://cdn.jsdelivr.net/gh/Fatezhang/FigureCloud@master/uPic/pKtFXF.png)
+![color](#000000)

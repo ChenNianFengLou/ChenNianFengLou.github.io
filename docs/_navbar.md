@@ -1,2 +1,3 @@
-- [:deer: 林深时见鹿](/biography/)
-- [:whale: 海蓝时见鲸](/)
+- [:deer:](/biography/)
+- [:whale:](/someday/)
+- [:owl:](https://zhangjiaheng.cn)
